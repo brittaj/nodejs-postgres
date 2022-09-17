@@ -52,7 +52,8 @@ Once all the containers are up and running access the API endpoits as below:
   Alternatively, if in case the docker set upp didn't work, you can still run it manually in your local. Follow the below steps:
   
   1. Assuming nodejs and postgres is installed locally, git clone the project from the repository.
-  2. Navigate to the root directory of the app and run the below commands:
+  2. Navigate to the root directory and look for .env file and change the dbHost to 0.0.0.0, currently it is the container name of the postgres db
+  3. Navigate to the root directory of the app and run the below commands:
      1. npm install
      2. npm run pm2
   
