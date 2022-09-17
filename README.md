@@ -20,10 +20,10 @@ Run the following commands:
   
 Once all the containers are up and running access the API endpoits as below:
 
-# CHECK THE STATUS OF THE APP
+# Check the status of the app
   http://0.0.0.0:3020/
   
- # [POST] CREATE TASK
+ # [POST] Create Task
   http://0.0.0.0:3020/tasks
   
   Sample JSON : {
@@ -32,10 +32,10 @@ Once all the containers are up and running access the API endpoits as below:
                   "status":"Not Completed"
                  }
 
-# [GET] LIST ALL TASKS
+# [GET] List all Tasks
   http://0.0.0.0:3020/tasks
   
-# [PUT] UPDATE TASK
+# [PUT] Update Task
   http://0.0.0.0:3020/tasks/:id
  
  Sample JSON : {
@@ -43,10 +43,10 @@ Once all the containers are up and running access the API endpoits as below:
                   "description":"Hello this is a test-01",
                   "status":"Completed"
                  }
-# [GET] TASK BY ID
+# [GET] Task By Id
   http://0.0.0.0:3020/tasks/:id
 
-# [DELETE] TASK BY ID
+# [DELETE] Delete Task By Id
   http://0.0.0.0:3020/tasks/:id
   
   Alternatively, if in case the docker set upp didn't work, you can still run it manually in your local. Follow the below steps:
