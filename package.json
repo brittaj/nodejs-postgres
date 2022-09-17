@@ -1,0 +1,22 @@
+{
+  "name": "condingtest",
+  "version": "1.0.0",
+  "description": "Coding Test",
+  "main": "app.js",
+  "scripts": {
+    "pm2": "pm2 start processes.json --no-daemon",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Britta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pm2": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
