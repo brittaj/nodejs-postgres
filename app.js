@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 //define port
-const PORT = (process.env.NODE_ENV == "production")?(process.env.PROD_PORT || 3020):(process.env.DEV_PORT || 3030);
+const PORT = (process.env.NODE_ENV == "production")?(process.env.PROD_PORT || 3030):(process.env.DEV_PORT || 3020);
 
 //define host
 const HOST = process.env.HOST || '0.0.0.0';
