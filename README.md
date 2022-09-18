@@ -9,7 +9,7 @@ the necessary APIs to enable the UI to perform all the CRUD operations.
 This is a backend app and it runs on nodejs with postgres as db. This app can be run on a docker container.
 # Installation
 
-Assuming Docker is already installed, git clone the app from the git repo git@github.com:brittaj/nodejs-postgres.git.
+Assuming Docker is already installed, git clone the app from the git repo [git@github.com:brittaj/nodejs-postgres.git](https://github.com/brittaj/nodejs-postgres.git).
 
 For running in development mode, use the same .env & docker-compose.yml file provided. This can be changed for production environment.
 
