@@ -29,16 +29,7 @@ const getTasks = (request, response) => {
       response.status(200).json(results.rows)
     })
   }
-   //get individual task by title
-   const getTaskByTitle = (title) => {
-   
-    pool.query('SELECT * FROM imperial_tasks WHERE title = $1', [title], (error, results) => {
-      if (error) {
-        throw error
-      }
-      results.rows;
-    })
-  }
+  
   //create task
   const createTask = (request, response) => {
     const { title, description, status } = request.body
